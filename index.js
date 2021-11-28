@@ -80,6 +80,17 @@ hexo.extend.tag.register(
     { ends: true }
 );
 
+hexo.extend.tag.register(
+    "cw",
+    function (args, content) {
+        var parsedWarning = content;
+        parsedWarning = marked(parsedWarning);
+
+        return `<div class="msr-cw"><span class="cw-header">Content Warning</span>${parsedWarning}</div>`;
+    },
+    { ends: true }
+);
+
 var renderFootnotes = require("./src/footnotes");
 
 hexo.extend.filter.register("before_post_render", function (data) {

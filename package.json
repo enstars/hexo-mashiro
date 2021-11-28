@@ -1,6 +1,6 @@
 {
     "name": "hexo-mashiro",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Just a bunch of Hexo plugins for Mashiro's layout.",
     "main": "index.js",
     "scripts": {
