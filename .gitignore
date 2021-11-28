@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+npm-debug.log
+tmp
+src/bubble.js
+src/location.js
+src/narration.js
+src/season.js
+src/toolbar.js
